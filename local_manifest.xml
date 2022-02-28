@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+      <remote name="MukulSharma06175"
+          fetch="https://github.com/MukulSharma06175" />
+      
+      <remote name="PixelBlaster-Devices"
+          fetch="https://github.com/PixelBlaster-Devices" />     
+      
+      <remote name="ArrowOS"
+          fetch="https://github.com/ArrowOS" />
+      
+      <remote name="lighthouse-os-devices"
+          fetch="https://github.com/lighthouse-os-devices" />
+
+      <remote name="CorvusRom-Devices"
+          fetch="https://github.com/CorvusRom-Devices" />
+      
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="lighthouse-os-devices" revision="S"/>
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="CorvusRom-Devices" revision="S" />
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="MukulSharma06175" revision="eas-caf" />
+</manifest>
