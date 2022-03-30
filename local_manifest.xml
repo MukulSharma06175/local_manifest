@@ -15,8 +15,11 @@
 
       <remote name="CorvusRom-Devices"
           fetch="https://github.com/CorvusRom-Devices" />
+      <remote  name="LOS" 
+          fetch="https://github.com/LineageOS" />
       
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="lighthouse-os-devices" revision="S"/>
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="CorvusRom-Devices" revision="S" />
   <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="MukulSharma06175" revision="eas-caf" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LOS" revision="lineage-19.0" />
 </manifest>
